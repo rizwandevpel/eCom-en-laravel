@@ -27,7 +27,7 @@
 <style>
     .custom-login{
         height: 500px;
-        padding-top: 100px
+        padding-top: 100px;
     }
 </style>
 </html>
