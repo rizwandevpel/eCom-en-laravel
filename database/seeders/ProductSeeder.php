@@ -52,3 +52,6 @@ class ProductSeeder extends Seeder
         ]);
     }
 }
+
+
+

@@ -10,11 +10,13 @@
                 <h3>Result for Product</h3>
                 @foreach ($product as $product)
                     <div class="searched-item">
+                        <a href="detail/{{ $product['id'] }}">
                         <img class="trending-image" src="{{ $product['gallery'] }}" alt="Chania">
                         <div class="">
                             <h2>{{ $product['name'] }}</h2>
                             <h5>{{ $product['description'] }}</h5>
                         </div>
+                        </a>
                     </div>
                 @endforeach
             </div>
